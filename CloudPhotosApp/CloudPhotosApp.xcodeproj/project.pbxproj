@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA333B0523A22205003235A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA333B0423A22205003235A3 /* GoogleService-Info.plist */; };
+		AA333B0623A22205003235A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA333B0423A22205003235A3 /* GoogleService-Info.plist */; };
+		AA333B0723A22205003235A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA333B0423A22205003235A3 /* GoogleService-Info.plist */; };
 		AA5E33D423A09F2400DF0E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5E33D323A09F2400DF0E91 /* AppDelegate.swift */; };
 		AA5E33D623A09F2400DF0E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5E33D523A09F2400DF0E91 /* SceneDelegate.swift */; };
-		AA5E33D823A09F2400DF0E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5E33D723A09F2400DF0E91 /* ViewController.swift */; };
 		AA5E33DB23A09F2400DF0E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5E33D923A09F2400DF0E91 /* Main.storyboard */; };
 		AA5E33DE23A09F2400DF0E91 /* CloudPhotosApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5E33DC23A09F2400DF0E91 /* CloudPhotosApp.xcdatamodeld */; };
 		AA5E33E023A09F2A00DF0E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5E33DF23A09F2A00DF0E91 /* Assets.xcassets */; };
@@ -37,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA333B0423A22205003235A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA5E33D023A09F2400DF0E91 /* CloudPhotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPhotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E33D323A09F2400DF0E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5E33D523A09F2400DF0E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AA5E33D723A09F2400DF0E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA5E33DA23A09F2400DF0E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA5E33DD23A09F2400DF0E91 /* CloudPhotosApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloudPhotosApp.xcdatamodel; sourceTree = "<group>"; };
 		AA5E33DF23A09F2A00DF0E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,12 +111,12 @@
 				AA5E340623A0A09700DF0E91 /* CloudPhotosApp.entitlements */,
 				AA5E33D323A09F2400DF0E91 /* AppDelegate.swift */,
 				AA5E33D523A09F2400DF0E91 /* SceneDelegate.swift */,
-				AA5E33D723A09F2400DF0E91 /* ViewController.swift */,
 				AAB559D423A206050048B2D6 /* ViewControllerV2.swift */,
 				AA5E33D923A09F2400DF0E91 /* Main.storyboard */,
 				AA5E33DF23A09F2A00DF0E91 /* Assets.xcassets */,
 				AA5E33E123A09F2A00DF0E91 /* LaunchScreen.storyboard */,
 				AA5E33E423A09F2A00DF0E91 /* Info.plist */,
+				AA333B0423A22205003235A3 /* GoogleService-Info.plist */,
 				AA5E33DC23A09F2400DF0E91 /* CloudPhotosApp.xcdatamodeld */,
 			);
 			path = CloudPhotosApp;
@@ -251,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5E33E323A09F2A00DF0E91 /* LaunchScreen.storyboard in Resources */,
+				AA333B0523A22205003235A3 /* GoogleService-Info.plist in Resources */,
 				AA5E33E023A09F2A00DF0E91 /* Assets.xcassets in Resources */,
 				AA5E33DB23A09F2400DF0E91 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA333B0623A22205003235A3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA333B0723A22205003235A3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +283,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5E33DE23A09F2400DF0E91 /* CloudPhotosApp.xcdatamodeld in Sources */,
-				AA5E33D823A09F2400DF0E91 /* ViewController.swift in Sources */,
 				AA5E33D423A09F2400DF0E91 /* AppDelegate.swift in Sources */,
 				AA5E33D623A09F2400DF0E91 /* SceneDelegate.swift in Sources */,
 				AAB559D523A206050048B2D6 /* ViewControllerV2.swift in Sources */,

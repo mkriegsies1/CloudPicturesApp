@@ -7,63 +7,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="N0S-LU-Hb2">
-            <objects>
-                <viewController id="oqx-0d-ZSY" customClass="ViewController" customModule="CloudPhotosApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" userInteractionEnabled="NO" contentMode="center" semanticContentAttribute="forceLeftToRight" id="1r4-W8-vhM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOy-CH-PAV">
-                                <rect key="frame" x="20" y="809" width="374" height="61"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="0PS-Lh-lbg"/>
-                                </constraints>
-                                <state key="normal" title="Upload to Cloud"/>
-                            </button>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hb8-nd-F4r">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="Wog-O1-i8M"/>
-                                </items>
-                            </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Glk-cQ-VHz">
-                                <rect key="frame" x="20" y="740" width="374" height="61"/>
-                                <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="6IS-hy-70N"/>
-                                </constraints>
-                                <state key="normal" title="Choose an Image"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <accessibility key="accessibilityConfiguration">
-                            <bool key="isElement" value="YES"/>
-                        </accessibility>
-                        <constraints>
-                            <constraint firstItem="XOy-CH-PAV" firstAttribute="top" secondItem="Glk-cQ-VHz" secondAttribute="bottom" constant="8" id="0c7-t6-qDJ"/>
-                            <constraint firstItem="Glk-cQ-VHz" firstAttribute="leading" secondItem="ayV-ha-Xa5" secondAttribute="leading" constant="20" id="2i2-pW-Qlb"/>
-                            <constraint firstItem="ayV-ha-Xa5" firstAttribute="trailing" secondItem="XOy-CH-PAV" secondAttribute="trailing" constant="20" id="Fn9-X1-XHl"/>
-                            <constraint firstItem="hb8-nd-F4r" firstAttribute="leading" secondItem="ayV-ha-Xa5" secondAttribute="leading" id="U8T-ED-eSk"/>
-                            <constraint firstItem="XOy-CH-PAV" firstAttribute="leading" secondItem="ayV-ha-Xa5" secondAttribute="leading" constant="20" id="aUX-FI-l4d"/>
-                            <constraint firstItem="XOy-CH-PAV" firstAttribute="bottom" secondItem="ayV-ha-Xa5" secondAttribute="bottom" constant="8" id="amo-gU-I0y"/>
-                            <constraint firstItem="hb8-nd-F4r" firstAttribute="trailing" secondItem="ayV-ha-Xa5" secondAttribute="trailing" id="c1q-ej-l3n"/>
-                            <constraint firstItem="XOy-CH-PAV" firstAttribute="centerX" secondItem="1r4-W8-vhM" secondAttribute="centerX" id="eRl-6K-eND"/>
-                            <constraint firstItem="Glk-cQ-VHz" firstAttribute="centerX" secondItem="1r4-W8-vhM" secondAttribute="centerX" id="fjc-Rd-ve4"/>
-                            <constraint firstItem="hb8-nd-F4r" firstAttribute="top" secondItem="ayV-ha-Xa5" secondAttribute="top" id="loD-b2-ynk"/>
-                            <constraint firstItem="ayV-ha-Xa5" firstAttribute="trailing" secondItem="Glk-cQ-VHz" secondAttribute="trailing" constant="20" id="pTj-YX-xoP"/>
-                            <constraint firstItem="XOy-CH-PAV" firstAttribute="centerX" secondItem="1r4-W8-vhM" secondAttribute="centerX" id="wme-mB-gYk"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="ayV-ha-Xa5"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8eM-FV-RLT"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dcJ-kv-EbE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="21.739130434782609" y="-172.09821428571428"/>
-        </scene>
         <!--View ControllerV2-->
         <scene sceneID="rtP-gG-ZGH">
             <objects>

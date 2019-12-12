@@ -10,8 +10,10 @@
 
 import UIKit
 
-class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+
+class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate   {
     
+   //let ref = Database.database().reference(withPath: "CloudPics"){}
 
     @IBOutlet weak var imageViewOutlet: UIImageView!
     

@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Firebase // MARK: import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -78,5 +79,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+    // MARK: -  *** MARK'S CODE IS BELOW ***
+    
+    
+    
+    
+    
+    
+    // MARK: Firebase Initialization Code
+    //      connects to Firebase on app startup
+    //          code below is from the Firebase 'Add Firebase to your iOS app' document
+
+    class AppDelegate: UIResponder, UIApplicationDelegate {
+        
+        var window: UIWindow?
+        
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+            FirebaseApp.configure()
+            return true
+        }
+    }
+    
+    
 }
 

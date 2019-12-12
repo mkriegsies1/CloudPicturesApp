@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BF0B38F5C832FB12FB12E69 /* Pods_CloudPhotosApp_CloudPhotosAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F380C082493F8098C587DD7 /* Pods_CloudPhotosApp_CloudPhotosAppUITests.framework */; };
+		48033A29AB7ABBDE53EA4A3F /* Pods_CloudPhotosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1098D233301512C2AC67EBB /* Pods_CloudPhotosApp.framework */; };
 		AA333B0523A22205003235A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA333B0423A22205003235A3 /* GoogleService-Info.plist */; };
 		AA333B0623A22205003235A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA333B0423A22205003235A3 /* GoogleService-Info.plist */; };
 		AA333B0723A22205003235A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA333B0423A22205003235A3 /* GoogleService-Info.plist */; };
@@ -19,6 +21,7 @@
 		AA5E33EE23A09F2B00DF0E91 /* CloudPhotosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5E33ED23A09F2B00DF0E91 /* CloudPhotosAppTests.swift */; };
 		AA5E33F923A09F2B00DF0E91 /* CloudPhotosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5E33F823A09F2B00DF0E91 /* CloudPhotosAppUITests.swift */; };
 		AAB559D523A206050048B2D6 /* ViewControllerV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB559D423A206050048B2D6 /* ViewControllerV2.swift */; };
+		D89442A07FA3AC049831C8E4 /* Pods_CloudPhotosAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76543CA368773137F902577 /* Pods_CloudPhotosAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C6728F080DB6F92B9353F2A /* Pods-CloudPhotosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudPhotosApp.debug.xcconfig"; path = "Target Support Files/Pods-CloudPhotosApp/Pods-CloudPhotosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6FC087D6672435235D7EFF /* Pods-CloudPhotosApp-CloudPhotosAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudPhotosApp-CloudPhotosAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CloudPhotosApp-CloudPhotosAppUITests/Pods-CloudPhotosApp-CloudPhotosAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FF3B384EBFA65106EA578E3 /* Pods-CloudPhotosApp-CloudPhotosAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudPhotosApp-CloudPhotosAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CloudPhotosApp-CloudPhotosAppUITests/Pods-CloudPhotosApp-CloudPhotosAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D78016B05A84D47C88BCB6C /* Pods-CloudPhotosAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudPhotosAppTests.release.xcconfig"; path = "Target Support Files/Pods-CloudPhotosAppTests/Pods-CloudPhotosAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F380C082493F8098C587DD7 /* Pods_CloudPhotosApp_CloudPhotosAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudPhotosApp_CloudPhotosAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA333B0423A22205003235A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA5E33D023A09F2400DF0E91 /* CloudPhotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPhotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E33D323A09F2400DF0E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +65,10 @@
 		AA5E340623A0A09700DF0E91 /* CloudPhotosApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudPhotosApp.entitlements; sourceTree = "<group>"; };
 		AA5E340823A0A18500DF0E91 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		AAB559D423A206050048B2D6 /* ViewControllerV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerV2.swift; sourceTree = "<group>"; };
+		CFAF5BFE92E9FD1CA422B94E /* Pods-CloudPhotosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudPhotosApp.release.xcconfig"; path = "Target Support Files/Pods-CloudPhotosApp/Pods-CloudPhotosApp.release.xcconfig"; sourceTree = "<group>"; };
+		D1098D233301512C2AC67EBB /* Pods_CloudPhotosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudPhotosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76543CA368773137F902577 /* Pods_CloudPhotosAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudPhotosAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA703BBEE7B9D1DBBAE0C109 /* Pods-CloudPhotosAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudPhotosAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CloudPhotosAppTests/Pods-CloudPhotosAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48033A29AB7ABBDE53EA4A3F /* Pods_CloudPhotosApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89442A07FA3AC049831C8E4 /* Pods_CloudPhotosAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF0B38F5C832FB12FB12E69 /* Pods_CloudPhotosApp_CloudPhotosAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FA9A979796696202BACC2B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C6728F080DB6F92B9353F2A /* Pods-CloudPhotosApp.debug.xcconfig */,
+				CFAF5BFE92E9FD1CA422B94E /* Pods-CloudPhotosApp.release.xcconfig */,
+				2B6FC087D6672435235D7EFF /* Pods-CloudPhotosApp-CloudPhotosAppUITests.debug.xcconfig */,
+				5FF3B384EBFA65106EA578E3 /* Pods-CloudPhotosApp-CloudPhotosAppUITests.release.xcconfig */,
+				EA703BBEE7B9D1DBBAE0C109 /* Pods-CloudPhotosAppTests.debug.xcconfig */,
+				8D78016B05A84D47C88BCB6C /* Pods-CloudPhotosAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AA5E33C723A09F2400DF0E91 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +121,7 @@
 				AA5E33F723A09F2B00DF0E91 /* CloudPhotosAppUITests */,
 				AA5E33D123A09F2400DF0E91 /* Products */,
 				AA5E340723A0A18500DF0E91 /* Frameworks */,
+				6FA9A979796696202BACC2B2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +174,9 @@
 			isa = PBXGroup;
 			children = (
 				AA5E340823A0A18500DF0E91 /* CloudKit.framework */,
+				D1098D233301512C2AC67EBB /* Pods_CloudPhotosApp.framework */,
+				8F380C082493F8098C587DD7 /* Pods_CloudPhotosApp_CloudPhotosAppUITests.framework */,
+				D76543CA368773137F902577 /* Pods_CloudPhotosAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5E33FD23A09F2B00DF0E91 /* Build configuration list for PBXNativeTarget "CloudPhotosApp" */;
 			buildPhases = (
+				165AD1796C694E58A305F6EB /* [CP] Check Pods Manifest.lock */,
 				AA5E33CC23A09F2400DF0E91 /* Sources */,
 				AA5E33CD23A09F2400DF0E91 /* Frameworks */,
 				AA5E33CE23A09F2400DF0E91 /* Resources */,
+				73F8891FDBE89FE66BDF4928 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5E340023A09F2B00DF0E91 /* Build configuration list for PBXNativeTarget "CloudPhotosAppTests" */;
 			buildPhases = (
+				ED501DCB92C25020DCAE3914 /* [CP] Check Pods Manifest.lock */,
 				AA5E33E523A09F2A00DF0E91 /* Sources */,
 				AA5E33E623A09F2A00DF0E91 /* Frameworks */,
 				AA5E33E723A09F2A00DF0E91 /* Resources */,
@@ -190,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA5E340323A09F2B00DF0E91 /* Build configuration list for PBXNativeTarget "CloudPhotosAppUITests" */;
 			buildPhases = (
+				6A2318A0A92B4BFB0564E076 /* [CP] Check Pods Manifest.lock */,
 				AA5E33F023A09F2B00DF0E91 /* Sources */,
 				AA5E33F123A09F2B00DF0E91 /* Frameworks */,
 				AA5E33F223A09F2B00DF0E91 /* Resources */,
+				125B44FD6B18D7174BF2DBFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +314,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		125B44FD6B18D7174BF2DBFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudPhotosApp-CloudPhotosAppUITests/Pods-CloudPhotosApp-CloudPhotosAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudPhotosApp-CloudPhotosAppUITests/Pods-CloudPhotosApp-CloudPhotosAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudPhotosApp-CloudPhotosAppUITests/Pods-CloudPhotosApp-CloudPhotosAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		165AD1796C694E58A305F6EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudPhotosApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A2318A0A92B4BFB0564E076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudPhotosApp-CloudPhotosAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73F8891FDBE89FE66BDF4928 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudPhotosApp/Pods-CloudPhotosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudPhotosApp/Pods-CloudPhotosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudPhotosApp/Pods-CloudPhotosApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED501DCB92C25020DCAE3914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudPhotosAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA5E33CC23A09F2400DF0E91 /* Sources */ = {
@@ -456,6 +597,7 @@
 		};
 		AA5E33FE23A09F2B00DF0E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6728F080DB6F92B9353F2A /* Pods-CloudPhotosApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CloudPhotosApp/CloudPhotosApp.entitlements;
@@ -478,6 +620,7 @@
 		};
 		AA5E33FF23A09F2B00DF0E91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFAF5BFE92E9FD1CA422B94E /* Pods-CloudPhotosApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CloudPhotosApp/CloudPhotosApp.entitlements;
@@ -500,6 +643,7 @@
 		};
 		AA5E340123A09F2B00DF0E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA703BBEE7B9D1DBBAE0C109 /* Pods-CloudPhotosAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +665,7 @@
 		};
 		AA5E340223A09F2B00DF0E91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D78016B05A84D47C88BCB6C /* Pods-CloudPhotosAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +687,7 @@
 		};
 		AA5E340423A09F2B00DF0E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6FC087D6672435235D7EFF /* Pods-CloudPhotosApp-CloudPhotosAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,6 +707,7 @@
 		};
 		AA5E340523A09F2B00DF0E91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF3B384EBFA65106EA578E3 /* Pods-CloudPhotosApp-CloudPhotosAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

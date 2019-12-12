@@ -1,0 +1,6 @@
+framework module Pods_CloudPhotosApp_CloudPhotosAppUITests {
+  umbrella header "Pods-CloudPhotosApp-CloudPhotosAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

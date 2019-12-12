@@ -15,18 +15,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FNi-ef-4ox">
-                                <rect key="frame" x="30" y="105" width="354" height="293"/>
+                            <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FNi-ef-4ox">
+                                <rect key="frame" x="30" y="103" width="354" height="295"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dhE-5l-9ru">
-                                        <rect key="frame" x="-10" y="0.0" width="374" height="293"/>
+                                        <rect key="frame" x="-10" y="0.0" width="374" height="295"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOy-CH-PAV">
-                                <rect key="frame" x="20" y="801" width="374" height="61"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOy-CH-PAV">
+                                <rect key="frame" x="20" y="809" width="374" height="61"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="0PS-Lh-lbg"/>
@@ -42,8 +42,8 @@
                                     <navigationItem title="Title" id="Wog-O1-i8M"/>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Glk-cQ-VHz">
-                                <rect key="frame" x="20" y="732" width="374" height="61"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Glk-cQ-VHz">
+                                <rect key="frame" x="20" y="740" width="374" height="61"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="6IS-hy-70N"/>
@@ -62,11 +62,15 @@
                             <constraint firstItem="XOy-CH-PAV" firstAttribute="top" secondItem="Glk-cQ-VHz" secondAttribute="bottom" constant="8" id="0c7-t6-qDJ"/>
                             <constraint firstItem="Glk-cQ-VHz" firstAttribute="leading" secondItem="ayV-ha-Xa5" secondAttribute="leading" constant="20" id="2i2-pW-Qlb"/>
                             <constraint firstItem="ayV-ha-Xa5" firstAttribute="trailing" secondItem="XOy-CH-PAV" secondAttribute="trailing" constant="20" id="Fn9-X1-XHl"/>
+                            <constraint firstAttribute="bottom" secondItem="FNi-ef-4ox" secondAttribute="bottom" constant="498" id="HBI-mE-2uP"/>
                             <constraint firstItem="FNi-ef-4ox" firstAttribute="centerX" secondItem="1r4-W8-vhM" secondAttribute="centerX" id="HBl-RE-5Ks"/>
+                            <constraint firstItem="FNi-ef-4ox" firstAttribute="leading" secondItem="ayV-ha-Xa5" secondAttribute="leading" constant="30" id="KtH-4I-lpI"/>
                             <constraint firstItem="hb8-nd-F4r" firstAttribute="leading" secondItem="ayV-ha-Xa5" secondAttribute="leading" id="U8T-ED-eSk"/>
                             <constraint firstItem="FNi-ef-4ox" firstAttribute="top" secondItem="hb8-nd-F4r" secondAttribute="bottom" constant="15" id="VBM-lb-Bg6"/>
                             <constraint firstItem="XOy-CH-PAV" firstAttribute="leading" secondItem="ayV-ha-Xa5" secondAttribute="leading" constant="20" id="aUX-FI-l4d"/>
+                            <constraint firstItem="XOy-CH-PAV" firstAttribute="bottom" secondItem="ayV-ha-Xa5" secondAttribute="bottom" constant="8" id="amo-gU-I0y"/>
                             <constraint firstItem="hb8-nd-F4r" firstAttribute="trailing" secondItem="ayV-ha-Xa5" secondAttribute="trailing" id="c1q-ej-l3n"/>
+                            <constraint firstItem="XOy-CH-PAV" firstAttribute="centerX" secondItem="1r4-W8-vhM" secondAttribute="centerX" id="eRl-6K-eND"/>
                             <constraint firstItem="Glk-cQ-VHz" firstAttribute="centerX" secondItem="1r4-W8-vhM" secondAttribute="centerX" id="fjc-Rd-ve4"/>
                             <constraint firstItem="hb8-nd-F4r" firstAttribute="top" secondItem="ayV-ha-Xa5" secondAttribute="top" id="loD-b2-ynk"/>
                             <constraint firstItem="ayV-ha-Xa5" firstAttribute="trailing" secondItem="Glk-cQ-VHz" secondAttribute="trailing" constant="20" id="pTj-YX-xoP"/>

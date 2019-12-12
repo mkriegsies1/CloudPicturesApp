@@ -16,6 +16,7 @@
 		AA5E33E323A09F2A00DF0E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5E33E123A09F2A00DF0E91 /* LaunchScreen.storyboard */; };
 		AA5E33EE23A09F2B00DF0E91 /* CloudPhotosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5E33ED23A09F2B00DF0E91 /* CloudPhotosAppTests.swift */; };
 		AA5E33F923A09F2B00DF0E91 /* CloudPhotosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5E33F823A09F2B00DF0E91 /* CloudPhotosAppUITests.swift */; };
+		AAB559D523A206050048B2D6 /* ViewControllerV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB559D423A206050048B2D6 /* ViewControllerV2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AA5E33FA23A09F2B00DF0E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5E340623A0A09700DF0E91 /* CloudPhotosApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudPhotosApp.entitlements; sourceTree = "<group>"; };
 		AA5E340823A0A18500DF0E91 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		AAB559D423A206050048B2D6 /* ViewControllerV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerV2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				AA5E33D323A09F2400DF0E91 /* AppDelegate.swift */,
 				AA5E33D523A09F2400DF0E91 /* SceneDelegate.swift */,
 				AA5E33D723A09F2400DF0E91 /* ViewController.swift */,
+				AAB559D423A206050048B2D6 /* ViewControllerV2.swift */,
 				AA5E33D923A09F2400DF0E91 /* Main.storyboard */,
 				AA5E33DF23A09F2A00DF0E91 /* Assets.xcassets */,
 				AA5E33E123A09F2A00DF0E91 /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 				AA5E33D823A09F2400DF0E91 /* ViewController.swift in Sources */,
 				AA5E33D423A09F2400DF0E91 /* AppDelegate.swift in Sources */,
 				AA5E33D623A09F2400DF0E91 /* SceneDelegate.swift in Sources */,
+				AAB559D523A206050048B2D6 /* ViewControllerV2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

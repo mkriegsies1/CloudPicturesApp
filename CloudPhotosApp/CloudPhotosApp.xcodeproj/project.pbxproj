@@ -51,6 +51,8 @@
 		AA5E33F423A09F2B00DF0E91 /* CloudPhotosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudPhotosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E33F823A09F2B00DF0E91 /* CloudPhotosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudPhotosAppUITests.swift; sourceTree = "<group>"; };
 		AA5E33FA23A09F2B00DF0E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5E340623A0A09700DF0E91 /* CloudPhotosApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudPhotosApp.entitlements; sourceTree = "<group>"; };
+		AA5E340823A0A18500DF0E91 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				AA5E33EC23A09F2B00DF0E91 /* CloudPhotosAppTests */,
 				AA5E33F723A09F2B00DF0E91 /* CloudPhotosAppUITests */,
 				AA5E33D123A09F2400DF0E91 /* Products */,
+				AA5E340723A0A18500DF0E91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +104,7 @@
 		AA5E33D223A09F2400DF0E91 /* CloudPhotosApp */ = {
 			isa = PBXGroup;
 			children = (
+				AA5E340623A0A09700DF0E91 /* CloudPhotosApp.entitlements */,
 				AA5E33D323A09F2400DF0E91 /* AppDelegate.swift */,
 				AA5E33D523A09F2400DF0E91 /* SceneDelegate.swift */,
 				AA5E33D723A09F2400DF0E91 /* ViewController.swift */,
@@ -129,6 +133,14 @@
 				AA5E33FA23A09F2B00DF0E91 /* Info.plist */,
 			);
 			path = CloudPhotosAppUITests;
+			sourceTree = "<group>";
+		};
+		AA5E340723A0A18500DF0E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E340823A0A18500DF0E91 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +450,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudPhotosApp/CloudPhotosApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWG5U2QPAU;
 				INFOPLIST_FILE = CloudPhotosApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,6 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = markkriegsies.CloudPhotosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,7 +472,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudPhotosApp/CloudPhotosApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWG5U2QPAU;
 				INFOPLIST_FILE = CloudPhotosApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,6 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = markkriegsies.CloudPhotosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

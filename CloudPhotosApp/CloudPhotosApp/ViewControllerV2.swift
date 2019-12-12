@@ -9,15 +9,15 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseStorage
 
 
 class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate   {
-    
-   //let ref = Database.database().reference(withPath: "CloudPics"){}
 
-    @IBOutlet weak var imageViewOutlet: UIImageView!
+    @IBOutlet weak var imageViewOutlet: UIImageView! //MARK: - imageViewOutlet
     
-    @IBAction func selectImageAction(_ sender: Any)
+    @IBAction func selectImageAction(_ sender: Any) //MARK: - selectImageAction
     {
         let image = UIImagePickerController()
         image.delegate = self
@@ -53,7 +53,26 @@ class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINav
         super.didReceiveMemoryWarning()
     }
      
-     
+    @IBAction func cloudUploadAction(_ sender: Any) {
+        let storage = Storage.storage()     //Code source: https://firebase.google.com/docs/storage/ios/create-reference
+                                            //Code source: https://firebase.google.com/docs/storage/ios/upload-files
+        
+        //the section below declares our Cloud Storage references within Firebase
+        let storageRef = storage.reference() //root reference
+        let imagesFolderRef = storageRef.child("imagesFolder") //child reference
+        let imageRef = storageRef.child("images/image1.jpg")       //reference to the jpg image within the 'images' folder
+        
+        imagesFolderRef.name == imagesFolderRef.name
+        imageRef.name == imageRef.name
+        
+        
+        
+        
+        
+        
+        
+    }
+    
     
 
 }

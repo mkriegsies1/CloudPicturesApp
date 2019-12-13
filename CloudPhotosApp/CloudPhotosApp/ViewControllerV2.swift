@@ -53,7 +53,11 @@ class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINav
            super.viewDidLoad()
            // Do any additional setup after loading the view.
             //MARK: - Upload Notification
-                                        //Source: https://www.youtube.com/watch?v=JuqQUP0pnZY
+                                        
+                    /* Notifications are in progress
+        
+        
+                //Source: https://www.youtube.com/watch?v=JuqQUP0pnZY
         
         //Asks for notification permission
         let nCenter = UNUserNotificationCenter.current()
@@ -72,7 +76,7 @@ class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINav
         let uuidString = UUID().uuidString
         UNNotificationRequest(identifier: uuidString, content: nContent, trigger: trigger)
         
-        
+        */
     }
 
     override func didReceiveMemoryWarning() {

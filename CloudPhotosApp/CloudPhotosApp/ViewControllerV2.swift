@@ -11,12 +11,16 @@
 import UIKit
 import Firebase
 import FirebaseStorage
+import UserNotifications
 
 
 class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate   {
 
+    //MARK: - Image View
     @IBOutlet weak var imageViewOutlet: UIImageView! //MARK: - imageViewOutlet
     
+    
+    //MARK: - Image Selection
     @IBAction func selectImageAction(_ sender: Any) //MARK: - selectImageAction
     {
         let image = UIImagePickerController()
@@ -30,7 +34,7 @@ class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINav
         }
     }
     
-    /* Picking an Image */
+    //MARK: - Image Selection
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any])
     {
         if let image = info[.originalImage] as? UIImage
@@ -48,13 +52,36 @@ class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINav
     override func viewDidLoad() {
            super.viewDidLoad()
            // Do any additional setup after loading the view.
+            //MARK: - Upload Notification
+                                        //Source: https://www.youtube.com/watch?v=JuqQUP0pnZY
         
-       }
+        //Asks for notification permission
+        let nCenter = UNUserNotificationCenter.current()
+        nCenter.requestAuthorization(options: [.alert, .sound]) { (accessGranted, error) in
+        }
+        
+        //Notification Content
+        let nContent = UNMutableNotificationContent()
+        nContent.title = "Upload Status:"
+        nContent.body = "Upload Complete!"
+        
+        //Trigger
+        let trigger = self.imageViewOutlet.image = nil
+        
+        //request trigger
+        let uuidString = UUID().uuidString
+        UNNotificationRequest(identifier: uuidString, content: nContent, trigger: trigger)
+        
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
      
+    
+    
+            //MARK: - Upload Button
     @IBAction func cloudUploadAction(_ sender: Any) {
         let imageID = UUID.init().uuidString        //Unique ID given to image name so you can upload multiple images
         let uploadRef = Storage.storage().reference(withPath: "images/uploadedPicture\(imageID)")   //reference to location in Firebase
@@ -67,7 +94,7 @@ class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINav
         uploadMetadata.contentType = "image/jpeg" //adds metadata
         
         
-        //actually uploads the file
+        //MARK: - Uploading the Image
         uploadRef.putData(imageData, metadata: uploadMetadata) { (downloadMetadata, error) in
             if let error = error {
                 print("An error occurred. \(error.localizedDescription)")
@@ -84,41 +111,6 @@ class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINav
         
         
         
-        /* Old Upload Code
-        let storage = Storage.storage()
-        
-        //the section below declares our Cloud Storage references within Firebase
-        let storageRef = storage.reference() //root reference
-        let imagesFolderRef = storageRef.child("imagesFolder")     //child reference
-        let imageRef = storageRef.child("images/image1.jpg")       //reference to the jpg image within the 'images' folder
-        
-        imagesFolderRef.name == imagesFolderRef.name   //asserts the filenames are associated with the correct files
-        imageRef.name == imageRef.name
-        
-        
-        //Uploading picture
-        let data = Data()  //Data in memory
-        
-        //uploadTask uploads the picture to the path "images.image2.jpg"
-        let uploadTask = imageRef.putData(data, metadata: nil) { (metadata, error) in
-            guard let downoadlURL = metadata else {
-                //error occured
-                return
-            }
-            //metadata
-           // let size = metadata.size
-            
-            //download URL
-            imageRef.downloadURL { (url, error) in
-                guard let downloadURL = url else {
-                    //Error occured
-                    return
-                }
-            
-            }
-           
-       
-    } */
         
     }
     

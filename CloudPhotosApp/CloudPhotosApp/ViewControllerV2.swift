@@ -28,6 +28,7 @@ class ViewControllerV2: UIViewController, UIImagePickerControllerDelegate, UINav
         
         image.sourceType = UIImagePickerController.SourceType.photoLibrary
         
+        
         image.allowsEditing = false
         
         self.present(image, animated: true) {

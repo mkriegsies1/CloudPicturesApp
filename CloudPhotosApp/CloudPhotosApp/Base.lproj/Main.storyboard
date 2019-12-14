@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nEK-iO-V20">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nEK-iO-V20">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,42 +15,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tGQ-GU-lPv">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tGQ-GU-lPv">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Select an Image for the Cloud" id="84B-YL-Ett"/>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQy-bh-kdR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQy-bh-kdR">
                                 <rect key="frame" x="20" y="778" width="374" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="eYb-1S-AWG"/>
+                                </constraints>
                                 <state key="normal" title="Upload to Cloud"/>
                                 <connections>
                                     <action selector="cloudUploadAction:" destination="nEK-iO-V20" eventType="touchUpInside" id="acb-nI-2zg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gf-ZK-9cT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gf-ZK-9cT">
                                 <rect key="frame" x="20" y="709" width="374" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="Zej-4n-aU1"/>
+                                </constraints>
                                 <state key="normal" title="Select Image"/>
                                 <connections>
                                     <action selector="selectImageAction:" destination="nEK-iO-V20" eventType="touchUpInside" id="TTW-G9-Dg4"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dhE-5l-9ru">
-                                <rect key="frame" x="20" y="110" width="374" height="295"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The image will dissappear upcon successful upload." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zo0-gb-mvk">
-                                <rect key="frame" x="71" y="832" width="273" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The image will dissappear upcon successful upload." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zo0-gb-mvk">
+                                <rect key="frame" x="70.5" y="847" width="273" height="14"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dhE-5l-9ru">
+                                <rect key="frame" x="20" y="96" width="374" height="295"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="295" id="Zr1-Dg-WuV"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="5gf-ZK-9cT" secondAttribute="bottom" constant="126" id="JaD-py-Vc5"/>
+                            <constraint firstItem="5gf-ZK-9cT" firstAttribute="leading" secondItem="vJ1-dK-JhF" secondAttribute="leadingMargin" id="MrK-nm-Lec"/>
+                            <constraint firstItem="dQy-bh-kdR" firstAttribute="top" secondItem="5gf-ZK-9cT" secondAttribute="bottom" constant="8" id="Opm-j3-2c7"/>
+                            <constraint firstItem="dQy-bh-kdR" firstAttribute="centerX" secondItem="tGQ-GU-lPv" secondAttribute="centerX" id="UTn-Lx-RwF"/>
+                            <constraint firstItem="5gf-ZK-9cT" firstAttribute="trailing" secondItem="vJ1-dK-JhF" secondAttribute="trailingMargin" id="afF-16-COV"/>
+                            <constraint firstItem="5gf-ZK-9cT" firstAttribute="trailing" secondItem="dhE-5l-9ru" secondAttribute="trailing" id="bV1-TP-PR5"/>
+                            <constraint firstItem="tGQ-GU-lPv" firstAttribute="top" secondItem="F9j-jH-DWU" secondAttribute="top" id="bxF-Gq-TIJ"/>
+                            <constraint firstItem="5gf-ZK-9cT" firstAttribute="leading" secondItem="dhE-5l-9ru" secondAttribute="leading" id="dEx-s2-qhg"/>
+                            <constraint firstItem="dhE-5l-9ru" firstAttribute="top" secondItem="tGQ-GU-lPv" secondAttribute="bottom" constant="8" id="f4z-wN-SlF"/>
+                            <constraint firstItem="Zo0-gb-mvk" firstAttribute="top" secondItem="dQy-bh-kdR" secondAttribute="bottom" constant="8" id="j0O-A4-kLi"/>
+                            <constraint firstItem="dQy-bh-kdR" firstAttribute="leading" secondItem="5gf-ZK-9cT" secondAttribute="leading" id="nrX-be-4Y7"/>
+                            <constraint firstItem="tGQ-GU-lPv" firstAttribute="leading" secondItem="F9j-jH-DWU" secondAttribute="leading" id="q3y-ew-9Rs"/>
+                            <constraint firstItem="5gf-ZK-9cT" firstAttribute="centerX" secondItem="tGQ-GU-lPv" secondAttribute="centerX" id="qtE-iZ-eXp"/>
+                            <constraint firstItem="5gf-ZK-9cT" firstAttribute="centerX" secondItem="Zo0-gb-mvk" secondAttribute="centerX" id="sBt-kQ-BN6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="F9j-jH-DWU"/>
                     </view>
                     <connections>
